@@ -17,7 +17,7 @@ public class productTest {
     public void setupDriver(){
         System.setProperty("webdriver.chrome.driver","C:\\Users\\beyzanurakkaya\\Selenium\\chromedriver.exe");
         driver = new ChromeDriver();
-        String url = "https://www.n11.com/";
+        String url = "https://www.gittigidiyor.com/";
         driver.get(url);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(45, TimeUnit.SECONDS);
